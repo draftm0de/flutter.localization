@@ -1,0 +1,13 @@
+{
+  "@@locale": "en",
+  "btnCancel": "Cancel",
+  "btnDelete": "Delete",
+  "btnConfirmNo": "No",
+  "btnConfirmYes": "Yes",
+  "workerAutoConfirmIn": "Automatically confirms in {time}",
+  "@workerAutoConfirmIn": {
+    "placeholders": {
+      "time": {}
+    }
+  }
+}
