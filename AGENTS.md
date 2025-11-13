@@ -12,6 +12,7 @@
 - `dart format .` — apply canonical Dart formatting before committing.
 - `dart analyze .` — run the analyzer to catch API breaks or missing exports.
 - `flutter test` — execute the package test suite (add tests under `test/` as described below).
+- Whenever `CHANGELOG.md` is touched, immediately re-run the full test suite, collect coverage (`flutter test --coverage`), **and** materialize the HTML report (`genhtml coverage/lcov.info -o coverage/html`) before sending the change for review.
 - `./flutter.update.sh` — convenience script that regenerates l10n files and refreshes dependencies when ARB strings change.
 
 ## Coding Style & Naming Conventions
