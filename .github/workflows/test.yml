@@ -8,5 +8,5 @@ permissions:
   contents: write  # allow downstream workflow to push tags
 
 jobs:
-  release:
-    uses: draftm0de/flutter/.github/workflows/release.yml@main
+  test:
+    uses: draftm0de/flutter/.github/workflows/test.yml@main
