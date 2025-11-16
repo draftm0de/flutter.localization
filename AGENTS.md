@@ -35,4 +35,4 @@
 - README begins with a single-sentence facade overview followed by a bullet list of wrapped packages.
 - Each bullet links to the upstream repository and provides a one-line summary of the package’s purpose; omit additional sections or setup details.
 - Update the README immediately whenever a wrapper is added, removed, or retargeted so the list stays authoritative.
-- After `flutter test` succeeds, review and update documentation/README/CHANGELOG as needed, then run `dart format .` before asking for review.
+- After `flutter test` succeeds, increment `pubspec.yaml` and update `CHANGELOG.md` in lockstep (even for doc-only changes), review docs/README, then run `dart format .` before asking for review.
