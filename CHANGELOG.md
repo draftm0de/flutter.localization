@@ -4,6 +4,8 @@ All notable changes to this project are tracked here. This file follows the
 [Keep a Changelog](https://keepachangelog.com/en/1.0.0/) convention.
 
 ## [Unreleased]
+
+## [1.0.3+1] - 2025-11-13
 ### Added
 - Localization-focused guidance in `AGENTS.md`, including how and when to rebuild the generated `DraftModeLocalizations` delegate.
 - `test/draftmode_localizations_test.dart` to lock down delegate wiring and translated strings.
