@@ -1,7 +1,7 @@
 name: draftmode_localization
 description: Shared DraftModeLocalizations bundle that exposes translated strings plus flutter_localizations wiring for DraftMode apps.
 publish_to: "none"
-version: 1.0.6+1
+version: 1.0.1+1
 
 environment:
   sdk: '>=3.3.0 <4.0.0'
@@ -24,3 +24,23 @@ flutter:
 
 repository: https://github.com/draftm0de/flutter.localization
 issue_tracker: https://github.com/draftm0de/flutter.localization/issues
+funding:
+  -
+
+dependency_overrides:
+executables:
+topics:
+  -
+
+documentation:
+ignored_advisories:
+  -
+
+false_secrets:
+  -
+
+screenshots:
+  -
+
+homepage:
+platforms:
